@@ -7,12 +7,12 @@
 &lt;!-- зона заголовка html, тег &lt;title&gt; - строка, которую браузер отображает на вкладках над страницами, &lt;meta&gt; и &lt;link&gt; сообщают технические сведения для браузера, например, что файл имеет кодировку Юникод (utf-8) --&gt;
 
 	&lt;head&gt;
-		&lt;title&gt;Личная страница Веры Кузнецовой&lt;/title&gt;
+		&lt;title&gt;Личная страница Ани Исаевой&lt;/title&gt;
 	 	&lt;!-- Required meta tags --&gt;
 	 	&lt;meta charset="utf-8"&gt;
 	 	&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
 
-		&lt;meta name="description" content="Личная страница и контакты"&gt;
+		&lt;meta name="description" content="Личная страница и контакты Ани"&gt;
 
 		&lt;!-- Bootstrap Core CSS --&gt;
 		&lt;link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen"&gt;
@@ -81,7 +81,7 @@
 					&lt;article&gt;
 						&lt;h3&gt;Школа&lt;/h2&gt;
 &lt;!-- когда будете менять текст, не используйте бюрократических слов типа ГБОУ СОШ, ну пожаалуйста --&gt;
-						&lt;p&gt;СУНЦ НГУ&lt;/p&gt;
+						&lt;p&gt;НИУ ВШЭ&lt;/p&gt;
 					&lt;/article&gt;
 				&lt;/div&gt;
 
