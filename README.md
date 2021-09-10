@@ -1,6 +1,5 @@
-#Test repo
+# Test repo
 some text
-[
 something
 *omg*
 **wow**
