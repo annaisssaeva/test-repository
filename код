@@ -1,0 +1,123 @@
+<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">&lt;!doctype html&gt;
+
+&lt;!-- так в HTML обозначаются комментарии. Выше вы видите объявление типа документа (DOCTYPE), так браузер понимает, что код ниже нужно интерпретировать как html --&gt;
+
+&lt;html&gt;
+
+&lt;!-- зона заголовка html, тег &lt;title&gt; - строка, которую браузер отображает на вкладках над страницами, &lt;meta&gt; и &lt;link&gt; сообщают технические сведения для браузера, например, что файл имеет кодировку Юникод (utf-8) --&gt;
+
+	&lt;head&gt;
+		&lt;title&gt;Личная страница Веры Кузнецовой&lt;/title&gt;
+	 	&lt;!-- Required meta tags --&gt;
+	 	&lt;meta charset="utf-8"&gt;
+	 	&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+
+		&lt;meta name="description" content="Личная страница и контакты"&gt;
+
+		&lt;!-- Bootstrap Core CSS --&gt;
+		&lt;link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen"&gt;
+&lt;!-- Эта страница сделана с помощью bootstrap - популярной библиотеки для создания и настройки сайтов. Ниже вы увидите, что многие теги содержат атрибуты class - bootstrap содержит шаблоны, как такие элементы красиво оформить --&gt;
+
+	&lt;/head&gt;
+	
+&lt;!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) --&gt;	
+	&lt;body&gt;
+
+&lt;!-- меню (navigation bar) --&gt;
+
+		&lt;nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom"&gt;
+
+&lt;!-- div - это контейнеры - коробочки с текстом и/или графикой, которые можно вкладывать друг в друга. Пристально смотреть на теги в этой части кода не нужно --&gt;
+&lt;div class="container"&gt; 
+				&lt;div class="navbar-header"&gt; 
+					&lt;a href="https://ling.hse.ru/" class="navbar-brand"&gt;Школа лингвистики НИУ ВШЭ&lt;/a&gt; 
+				&lt;/div&gt; 
+				&lt;nav class="collapse navbar-collapse" id="bs-navbar"&gt; 
+					&lt;ul class="nav navbar-nav navbar-right"&gt; 
+						&lt;li&gt; &lt;a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/index.html"&gt;Страница курса&lt;/a&gt; &lt;/li&gt; 
+						&lt;li&gt; &lt;a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_2.html"&gt;Страница группы&lt;/a&gt; &lt;/li&gt; 
+&lt;!-- поправьте номер группы в URL, если нужно (от 1 до 4) --&gt;
+					&lt;/ul&gt;
+				&lt;/nav&gt; 
+			&lt;/div&gt;
+		&lt;/nav&gt;
+
+&lt;!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница --&gt;
+
+		&lt;header style="background-color:plum; padding-top:70px; "&gt; 
+			&lt;div class="container"&gt; 
+				&lt;div class="row"&gt;
+					&lt;div class="col-md-4"&gt;
+						&lt;br&gt;&lt;br&gt;
+&lt;!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница --&gt;
+						&lt;h1&gt;Вера Кузнецова&lt;/h1&gt;
+						&lt;hr&gt; &lt;!-- это горизонтальная линия --&gt;
+						&lt;p&gt;&lt;i&gt;Человек, умеющий &lt;b&gt;создавать&lt;/i&gt; HTML&lt;/b&gt;&lt;/p&gt; 
+					&lt;/div&gt;
+					&lt;div class="col-md-4"&gt;
+&lt;!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки--&gt;
+&lt;!-- Измените URL на URL вашей фотографии, а также настройте размер изображения --&gt;
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Petrus_Christus_-_Portrait_of_a_Young_Woman_-_Google_Art_Project.jpg/368px-Petrus_Christus_-_Portrait_of_a_Young_Woman_-_Google_Art_Project.jpg" style="height:320px; margin:20px 20px 40px 20px; " &gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/header&gt;
+    &lt;!-- часть страницы, которая под шапкой --&gt;
+		&lt;section id="portfolio"&gt;
+			&lt;div class="container"&gt;
+
+&lt;!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) --&gt;
+				&lt;div class="col-md-3"&gt;
+
+&lt;!-- &lt;article&gt; не влияет на оформление, но помогает структурировать контент на осмысленые разделы --&gt;
+					&lt;article&gt;
+						&lt;h3&gt;Место учебы&lt;/h2&gt;
+						&lt;p&gt;Фундаментальная и прикладная лингвистика, НИУ ВШЭ, Москва&lt;/p&gt;
+					&lt;/article&gt;
+					&lt;article&gt;
+						&lt;h3&gt;Родной город&lt;/h2&gt;
+						&lt;p&gt;Новосибирск&lt;/p&gt;
+					&lt;/article&gt;
+					&lt;article&gt;
+						&lt;h3&gt;Школа&lt;/h2&gt;
+&lt;!-- когда будете менять текст, не используйте бюрократических слов типа ГБОУ СОШ, ну пожаалуйста --&gt;
+						&lt;p&gt;СУНЦ НГУ&lt;/p&gt;
+					&lt;/article&gt;
+				&lt;/div&gt;
+
+				&lt;div class="col-md-6"&gt;
+					&lt;article&gt;
+						&lt;h3&gt;Тут можно написать&lt;/h2&gt;
+						&lt;p&gt;Еще много много много много много много &lt;br&gt;
+						много &lt;br&gt;
+						много &lt;br&gt;
+						много &lt;br&gt;
+						много &lt;br&gt;
+						много &lt;br&gt;
+						много &lt;br&gt;
+						много &lt;br&gt;
+						всего о себе&lt;/p&gt;
+					&lt;/article&gt;
+				&lt;/div&gt;
+
+				&lt;div class="col-md-3"&gt;
+					&lt;h3&gt;Я в соцсетях&lt;/h3&gt;
+&lt;!-- тег &lt;ul&gt; - unordered list. Еще бывает тег &lt;ol&gt; --&gt;
+					&lt;ul&gt;
+						&lt;li&gt;VK&lt;/li&gt;
+						&lt;li&gt;Facebook&lt;/li&gt;
+						&lt;li&gt;Twitter&lt;/li&gt;
+						&lt;li&gt;Instagram&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/section&gt;
+
+&lt;!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &amp;copy;) и пишут об истории создания страницы. Поставьте свой копирайт --&gt;
+		&lt;footer class="bs-docs-footer"&gt; 
+			&lt;div class="container"&gt; 
+				&lt;p style="text-align:right; "&gt;&amp;copy; В. Кузнецова, 2021&lt;/p&gt; 
+			&lt;/div&gt;
+		&lt;/footer&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</pre></body></html>
