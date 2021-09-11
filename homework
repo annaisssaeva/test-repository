@@ -102,7 +102,6 @@
 <!-- тег <ul> - unordered list. Еще бывает тег <ol> -->
 					<ul>
 						<li>VK</li>
-						<li>Facebook</li>
 						<li>Twitter</li>
 						<li>Instagram</li>
 					</ul>
